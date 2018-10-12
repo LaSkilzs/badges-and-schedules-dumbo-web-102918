@@ -13,5 +13,9 @@ def assign_rooms(array)
 end
 
 def printer(array)
-  array.map{|name|puts badge_maker(array)}
+  i = 0
+  while i < array.length
+    puts badge_maker(array[i])
+    i += 1
+  end
 end
