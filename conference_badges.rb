@@ -1,3 +1,7 @@
 def badge_maker(array)
-  array.each{|name|puts "Hello, my name is #{name}."}
+  i = 0
+  while i < array.length
+    puts "Hello, my name is #{array[i]}."}
+  i += 1
+  end
 end
