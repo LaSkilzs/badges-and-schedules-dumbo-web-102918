@@ -19,5 +19,5 @@ def printer(array)
     # puts assign_rooms(array[i].shift)
     i += 1
   end
-  puts assign_rooms(array).to_join
+  puts assign_rooms(array)
 end
