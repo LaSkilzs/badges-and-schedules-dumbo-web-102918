@@ -17,4 +17,5 @@ def printer(array)
   room_assignments = assign_rooms(array)
   
   badges.each{|line|puts line}
+  room_assignments.each{|line|puts line}
 end
