@@ -8,7 +8,7 @@ end
 
 def assign_rooms(array)
   result = []
-  array.each_with_index{|name, room_num|result << "Hello, #{name}! You'll be assigned to room #{room_num}!"}
+  array.each_with_index{|name, room_num|result << "Hello, #{name}! You'll be assigned to room #{room_num+1}!"}
   result
 end
 
