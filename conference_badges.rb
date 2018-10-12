@@ -16,7 +16,8 @@ def printer(array)
   i = 0
   while i < array.length
     puts badge_maker(array[i])
-    puts assign_rooms(array[i].shift)
+    # puts assign_rooms(array[i].shift)
     i += 1
   end
+  puts assign_rooms(array)
 end
