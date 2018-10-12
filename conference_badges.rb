@@ -13,5 +13,5 @@ def assign_rooms(array)
 end
 
 def printer(array)
-  puts badge_maker(array)
+  array.map{|name|puts badge_maker(array)}
 end
