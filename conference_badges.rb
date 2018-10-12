@@ -13,11 +13,6 @@ def assign_rooms(array)
 end
 
 def printer(array)
-  i = 0
-  while i < array.length
-    puts badge_maker(array[i])
-    # puts assign_rooms(array[i].shift)
-    i += 1
-  end
+  puts batch_badge_creator(array)
   puts assign_rooms(array)
 end
